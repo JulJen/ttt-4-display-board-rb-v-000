@@ -15,7 +15,7 @@ def display_board(rows)
   puts rows[4]
 end
 
-board= [" ", " ", " ", "", " ", " ", " ", " ", " "]
+rows = [" ", " ", " ", "", " ", " ", " ", " ", " "]
 display_board(rows)
 
 # board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
