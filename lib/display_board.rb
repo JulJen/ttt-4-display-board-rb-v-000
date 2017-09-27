@@ -18,6 +18,8 @@ end
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 display_board(board)
 
+board[0] = "X"
+
 # board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 # display_board(board)
 #
