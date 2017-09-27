@@ -17,7 +17,7 @@ def display_board(rows)
   # puts rows[4]).to eq("   |   |   ")
 end
 
-display_board(board)
+display_board(rows)
 
 # board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 # display_board(board)
