@@ -18,7 +18,7 @@ display_board(board)
 board[0]= "O"
 display_board(board)
 
-(board[3],board[4],board[5]) = "X"
+(board[3] and board[4] and board[5]) = "X"
 display_board(board)
 
 # rows[0]).to eq("   |   |   ")
