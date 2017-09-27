@@ -22,6 +22,8 @@ board = [" ", " ", " ", "X", "X", "X", " ", " ", " "]
 display_board(board)
 
 
+board = [" ", " ", " ", " ", " ", " ", "O", "O", "0"]
+display_board(board)
 
 # rows[0]).to eq("   |   |   ")
 # expect(rows[1]).to eq("-----------")
