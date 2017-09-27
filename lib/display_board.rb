@@ -1,42 +1,42 @@
 # Define display_board that accepts a board and prints
 # out the current state.
 
-# def display_board(rows)
-#
-#   rows[0]= "   |   |   "
-#   puts rows[0]
-#   rows[1]= "-----------"
-#   puts rows[1]
-#   rows[2]= "   |   |   "
-#   puts rows[2]
-#   rows[3]= "-----------"
-#   puts rows[3]
-#   rows[4]= "   |   |   "
-#   puts rows[4]
-#
-# end
-#
-#
-# board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-# display_board(board)
+def display_board(rows)
 
-def display_board(board)
-  puts ("#{board[0]}  | #{board[1]} | #{board[2]}")
-  puts "-----------"
-  puts ("#{board[3]}  | #{board[4]} | #{board[5]}")
-  puts "-----------"
-  puts ("#{board[6]}  | #{board[7]} | #{board[8]}")
+  rows[0]= "   |   |   "
+  puts rows[0]
+  rows[1]= "-----------"
+  puts rows[1]
+  rows[2]= "   |   |   "
+  puts rows[2]
+  rows[3]= "-----------"
+  puts rows[3]
+  rows[4]= "   |   |   "
+  puts rows[4]
+
 end
+
 
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 display_board(board)
 
-rows[0]= "   |   |   "
-rows[1]= 
-rows[2]= 
-rows[3]= 
-rows[4]= 
-display_board(rows[0]
+# def display_board(board)
+#   puts ("#{board[0]}  | #{board[1]} | #{board[2]}")
+#   puts "-----------"
+#   puts ("#{board[3]}  | #{board[4]} | #{board[5]}")
+#   puts "-----------"
+#   puts ("#{board[6]}  | #{board[7]} | #{board[8]}")
+# end
+# 
+# board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+# display_board(board)
+# 
+# rows[0]= "   |   |   "
+# rows[1]=
+# rows[2]=
+# rows[3]=
+# rows[4]=
+# display_board(rows[0]
 # board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 # display_board(board)
 #
