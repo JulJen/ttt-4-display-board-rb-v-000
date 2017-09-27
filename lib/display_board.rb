@@ -18,8 +18,10 @@ display_board(board)
 board[0]= "O"
 display_board(board)
 
-(board[3],board[4],board[5]) = "X"
+board = [" ", " ", " ", "X", "X", "X", " ", " ", " "]
 display_board(board)
+
+
 
 # rows[0]).to eq("   |   |   ")
 # expect(rows[1]).to eq("-----------")
