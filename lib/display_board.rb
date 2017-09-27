@@ -30,6 +30,10 @@ display_board(board)
 
 board = [" ", " ", "O", " ", "O", " ", "O", " ", " "]
 display_board(board)
+
+board = ["X", "X", "X", "X", "O", "O", "X", "O", "O"
+display_board(board)
+
 # rows[0]).to eq("   |   |   ")
 # expect(rows[1]).to eq("-----------")
 # expect(rows[2]).to eq("   |   |   ")
