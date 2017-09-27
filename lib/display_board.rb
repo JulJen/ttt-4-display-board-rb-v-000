@@ -2,8 +2,8 @@
 # out the current state.
 
 def display_board(rows)
-# Method `display_board` that accepts a board array as an argument and uses the data in that array
-  rows[0]= "[#{[0]}|   |   "
+
+  rows[0]= "   |   |   "
   puts rows[0]
   rows[1]= "-----------"
   puts rows[1]
@@ -15,8 +15,8 @@ def display_board(rows)
   puts rows[4]
 end
 
-rows = [" ", " ", " ", "", " ", " ", " ", " ", " "]
-display_board(rows)
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+display_board(board)
 
 # board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 # display_board(board)
@@ -28,32 +28,32 @@ display_board(rows)
 # # display_board(board)
 #
 #
-board = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
-display_board(board)
-
-board = ["O", " ", " ", " ", " ", " ", " ", " ", " "]
-display_board(board)
-
-board = [" ", " ", " ", "X", "X", "X", " ", " ", " "]
-display_board(board)
-
-board = [" ", " ", " ", " ", " ", " ", "O", "O", "O"]
-display_board(board)
-
-board = ["X", " ", " ", " ", "X", " ", " ", " ", "X"]
-display_board(board)
-
-board = [" ", " ", "O", " ", "O", " ", "O", " ", " "]
-display_board(board)
-
-board = ["X", "X", "X", "X", "O", "O", "X", "O", "O"]
-display_board(board)
-
-board = ["X", "O", "X", "O", "X", "X", "O", "X", "O"]
-display_board(board)
-
-board = ["X", "X", "X", "X", "X", "X", "X", "X", "X"]
-display_board(board)
-
-board = ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
-display_board(board)
+# board = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
+# display_board(board)
+#
+# board = ["O", " ", " ", " ", " ", " ", " ", " ", " "]
+# display_board(board)
+#
+# board = [" ", " ", " ", "X", "X", "X", " ", " ", " "]
+# display_board(board)
+#
+# board = [" ", " ", " ", " ", " ", " ", "O", "O", "O"]
+# display_board(board)
+#
+# board = ["X", " ", " ", " ", "X", " ", " ", " ", "X"]
+# display_board(board)
+#
+# board = [" ", " ", "O", " ", "O", " ", "O", " ", " "]
+# display_board(board)
+#
+# board = ["X", "X", "X", "X", "O", "O", "X", "O", "O"]
+# display_board(board)
+#
+# board = ["X", "O", "X", "O", "X", "X", "O", "X", "O"]
+# display_board(board)
+#
+# board = ["X", "X", "X", "X", "X", "X", "X", "X", "X"]
+# display_board(board)
+#
+# board = ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# display_board(board)
