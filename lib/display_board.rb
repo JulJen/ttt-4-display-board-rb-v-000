@@ -10,11 +10,11 @@
 # end
 
 def display_board(board)
-  puts rows[0]).to eq("   |   |   ")
-  puts rows[1]).to eq"-----------"
-  puts rows[2]).to eq("   |   |   ")
-  puts rows[3]).to eq"-----------"
-  puts rows[4]).to eq("   |   |   ")
+  puts rows[0]) = ("   |   |   ")
+  # puts rows[1]).to eq"-----------"
+  # puts rows[2]).to eq("   |   |   ")
+  # puts rows[3]).to eq"-----------"
+  # puts rows[4]).to eq("   |   |   ")
 end
 
 display_board(board)
