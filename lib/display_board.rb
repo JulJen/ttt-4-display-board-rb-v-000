@@ -10,13 +10,10 @@ def display_board(board)
   puts x("#{board[6]}  | #{board[7]} | #{board[8]}")
 end
 
-def display_board(board)
-  puts rows[0] = ["   |   |   "]
-  # puts rows[1]).to eq"-----------"
-  # puts rows[2]).to eq("   |   |   ")
-  # puts rows[3]).to eq"-----------"
-  # puts rows[4]).to eq("   |   |   ")
-end
+# def display_board(board)
+#   puts rows[0] = ["   |   |   "]
+#
+# end
 
 display_board(rows)
 
