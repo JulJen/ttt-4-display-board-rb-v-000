@@ -15,7 +15,7 @@ display_board(board)
 board[4]= "X"
 display_board(board)
 
-board('3','4','5')= "X"
+board [[3],[4],[5]]= "X"
 display_board(board)
 
 # rows[0]).to eq("   |   |   ")
