@@ -20,7 +20,8 @@ end
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 display_board(board)
 
-board = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+rows[2]= "   | X |   "
 display_board(board)
 
 # def display_board(board)
