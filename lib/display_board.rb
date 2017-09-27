@@ -3,7 +3,7 @@
 
 def display_board(rows)
 # Method `display_board` that accepts a board array as an argument and uses the data in that array
-  rows[0]= "   |   |   "
+  rows[0]= "[#{[0]}|   |   "
   puts rows[0]
   rows[1]= "-----------"
   puts rows[1]
