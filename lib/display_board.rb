@@ -14,7 +14,7 @@ end
 #   puts rows[0] = ["   |   |   "]
 #
 # end
-
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 display_board(board)
 
 # board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
