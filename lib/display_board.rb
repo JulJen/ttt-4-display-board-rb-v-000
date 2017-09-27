@@ -15,8 +15,8 @@ display_board(board)
 board[4]= "X"
 display_board(board)
 
-# board['3','4','5']= "X"
-# display_board(board)
+board['3','4','5']= "X"
+display_board(board)
 
 # rows[0]).to eq("   |   |   ")
 # expect(rows[1]).to eq("-----------")
