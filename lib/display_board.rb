@@ -6,7 +6,7 @@ def display_board(rows)
   puts rows[0]
   rows[1]= "-----------"
   puts rows[1]
-  rows[2]= rows[3]
+  rows[2]= "   |   |   "
   puts rows[2]
   rows[3]= rows[1]
   puts rows[3]
