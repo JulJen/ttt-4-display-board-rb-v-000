@@ -1,12 +1,20 @@
 # Define display_board that accepts a board and prints
 # out the current state.
 
+# def display_board(board)
+#   puts rows[0]).to eq("#{board[0]}  | #{board[1]} | #{board[2]}")
+#   puts rows[1]).to eq"-----------"
+#   puts rows[2]).to eq("#{board[3]}  | #{board[4]} | #{board[5]}")
+#   puts rows[3]).to eq"-----------"
+#   puts rows[4]).to eq("#{board[6]}  | #{board[7]} | #{board[8]}")
+# end
+
 def display_board(board)
-  puts rows[0]).to eq("#{board[0]}  | #{board[1]} | #{board[2]}")
+  puts rows[0]).to eq("   |   |   ")
   puts rows[1]).to eq"-----------"
-  puts rows[2]).to eq("#{board[3]}  | #{board[4]} | #{board[5]}")
+  puts rows[2]).to eq("   |   |   ")
   puts rows[3]).to eq"-----------"
-  puts rows[4]).to eq("#{board[6]}  | #{board[7]} | #{board[8]}")
+  puts rows[4]).to eq("   |   |   ")
 end
 
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
