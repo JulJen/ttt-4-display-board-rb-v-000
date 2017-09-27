@@ -10,10 +10,10 @@ def display_board(board)
 end
 
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-# display_board(board)
+display_board(board)
 
 board[4]= "X"
-
+display_board(board)
 
 board[3,4,5]= "X"
 display_board(board)
