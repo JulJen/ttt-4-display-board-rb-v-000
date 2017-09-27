@@ -31,6 +31,12 @@ end
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 display_board(board)
 
+rows[0]= "   |   |   "
+rows[1]= 
+rows[2]= 
+rows[3]= 
+rows[4]= 
+display_board(rows[0]
 # board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 # display_board(board)
 #
