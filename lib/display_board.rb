@@ -22,7 +22,7 @@ board = [" ", " ", " ", "X", "X", "X", " ", " ", " "]
 display_board(board)
 
 
-board = [" ", " ", " ", " ", " ", " ", "O", "O", "0"]
+board = [" ", " ", " ", " ", " ", " ", "O", "O", "O"]
 display_board(board)
 
 # rows[0]).to eq("   |   |   ")
