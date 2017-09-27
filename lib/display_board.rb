@@ -2,7 +2,7 @@
 # out the current state.
 
 def display_board(rows)
-# Method `display_board` that accepts a board array as an argument and uses the data in that array 
+# Method `display_board` that accepts a board array as an argument and uses the data in that array
   rows[0]= "   |   |   "
   puts rows[0]
   rows[1]= "-----------"
@@ -15,7 +15,6 @@ def display_board(rows)
   puts rows[4]
 end
 
-board = [" ", " ", " ", "X", " ", " ", " ", " ", " "]
 display_board(board)
 
 # board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
