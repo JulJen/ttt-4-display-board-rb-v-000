@@ -9,15 +9,27 @@ def display_board(board)
   puts ("#{board[6]}  | #{board[7]} | #{board[8]}")
 end
 
-board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-display_board(board)
+# board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+# display_board(board)
+# 
+# board[4]= "X"
+# display_board(board)
 
-board[4]= "X"
-display_board(board)
-
+a = 3 
 board[4] = "X"
 (board[5]+ board[6]) = "X"
 display_board(board)
+
+board = [3, 4, 5]
+
+e.next
+=> 3
+
+e.peek
+=> 4
+
+e.next
+=> 5
 
 # rows[0]).to eq("   |   |   ")
 # expect(rows[1]).to eq("-----------")
