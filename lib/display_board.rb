@@ -9,7 +9,7 @@
 #   puts rows[4]).to eq("#{board[6]}  | #{board[7]} | #{board[8]}")
 # end
 
-def display_board(board)
+def display_board(rows)
   puts rows[0]) = "   |   |   "
   # puts rows[1]).to eq"-----------"
   # puts rows[2]).to eq("   |   |   ")
