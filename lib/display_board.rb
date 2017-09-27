@@ -3,6 +3,9 @@
 
 def display_board(rows)
 
+  a= "X"
+  b= "O"
+  
   rows[0]= "   |   |   "
   puts rows[0]
   rows[1]= "-----------"
