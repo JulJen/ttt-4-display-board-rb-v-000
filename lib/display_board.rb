@@ -28,6 +28,8 @@ def display_board(rows)
   puts ("#{board[6]}  | #{board[7]} | #{board[8]}")
 end
 
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+display_board(board)
 
 # board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 # display_board(board)
