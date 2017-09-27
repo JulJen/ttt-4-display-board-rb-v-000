@@ -22,7 +22,7 @@ display_board(board)
 
 
 rows[2]= "   | X |   "
-display_board(board)
+display_board(rows[2])
 
 # def display_board(board)
 #   puts ("#{board[0]}  | #{board[1]} | #{board[2]}")
